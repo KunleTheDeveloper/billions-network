@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billion Network Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <header>
+        <img src="billions.jpeg" alt="Billion Network Logo" class="logo" />
+        <h1>Billion Network Tap Game 💎</h1>
+        <p>Tap the coin before the timer runs out!</p>
+      </header>
+
+      <div id="game-area">
+        <div><img src="billions.jpeg" id="coin" alt=""></div>
+      </div>
+
+      <div class="stats">
+        <p>Score: <span id="score">0</span></p>
+        <p>Time: <span id="timer">30</span>s</p>
+      </div>
+
+      <div class="buttons">
+        <button id="startBtn">Start Game</button>
+        <button id="shareBtn" disabled>Share Score on X</button>
+      </div>
+
+      <footer>
+        Made by <a href="https://x.com/kunleyr" target="_blank">@kunleyr</a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
